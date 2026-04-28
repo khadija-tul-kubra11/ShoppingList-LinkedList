@@ -1,34 +1,43 @@
-🧑‍🎓 Student Record System (Linked List - C++)
+🧑‍🎓 Student Record System (C++ - Linked List)
 📌 Overview
 
-This is a simple Student Record Management System implemented in C++ using Linked List data structure.
+This is a console-based Student Record Management System developed in C++ using Singly Linked List.
 
-The system allows users to efficiently manage student records such as adding, displaying, searching, and deleting students dynamically in memory.
+It demonstrates basic Data Structures (Linked List) concepts by performing dynamic student record operations without using arrays or files.
 
 ⚙️ Features
-➕ Add new student record
-📄 Display all students
-🔍 Search student by roll number
-❌ Delete student by roll number
+
+This system supports the following operations:
+
+➕ Add Student Record
+📄 Display All Students
+🔍 Search Student by Roll Number
+❌ Delete Student by Roll Number
 🔗 Dynamic memory allocation using Linked List
 🛠️ Technologies Used
-C++
+C++ Programming Language
 Data Structures (Singly Linked List)
-Object-Oriented Programming (OOP)
-📂 Project Structure
-student-record-system/
-│
-├── main.cpp   → Source code file
-└── README.md  → Project documentation
-🚀 How to Run
-💻 Using Terminal / CMD:
-Compile the program:
+Object-Oriented Programming (OOP) Concepts
+Console-based Interface
+📂 How It Works
+
+Each student record contains:
+
+Roll Number
+Name
+Marks
+Pointer to next node
+
+All records are stored dynamically using a linked list, where each node is connected to the next node.
+
+▶️ How to Run
+💻 Compile the program:
 g++ main.cpp -o student
-Run the program:
+🚀 Run the program:
 student
 📌 Menu Options
 
-When you run the program, you will see:
+When the program runs, the following menu appears:
 
 1. Add Student
 2. Display Students
@@ -36,14 +45,15 @@ When you run the program, you will see:
 4. Search Student
 0. Exit
 🎯 Learning Outcomes
-Understanding of Linked List data structure
-Dynamic memory management in C++
-Implementation of CRUD operations
-Basic console-based user interface
+Understanding of Singly Linked List
+Dynamic memory allocation in C++
+Implementation of CRUD operations (Create, Read, Delete, Search)
+Strengthened OOP and problem-solving skills
 👩‍💻 Author
 
-Khadija Tul Kubra – BSCS Student
+Khadija Tul Kubra
+BSCS Student
 
 📌 Note
 
-This project was created for academic learning purposes to understand data structures and memory management in C++.
+This project was developed for academic purposes to practice data structures and linked list implementation in C++.
